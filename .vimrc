@@ -1,3 +1,5 @@
+set nocompatible
+
 au BufWritePost .vimrc so ~/.vimrc
 
 set clipboard=unnamed
@@ -17,3 +19,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+
+set autoindent
+set showcmd
+set ruler
